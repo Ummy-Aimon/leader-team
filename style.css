@@ -170,7 +170,12 @@ header{
     .player,.blogs,.top-courses{
         grid-template-columns: repeat(1,1fr);
     }
-    .players, .blog,.course{
+    .players, .blog,.course {
         flex-direction: column;
+    }
+    .menu-nav{
+        flex-wrap: wrap;
+        
+        
     }
 }
